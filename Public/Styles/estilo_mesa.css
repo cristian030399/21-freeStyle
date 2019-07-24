@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.mesa{
+    padding: 0px;
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    background-color: darkgreen;
+    
+
+}
+
+.contador{
+    background-color: darkgreen;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.carta_tirada, .jugador2, .jugador3{
+    margin-top: 100px;
+    border: 50px;
+    display: inline-block; 
+    
+}
+
+
+
+.carta_tirada{
+    background-color: burlywood;
+    width: 100px;
+    height: 150px;
+    margin-top: 200px;    
+    border-radius: 10px;
+}
+
+
+.jugador2{
+    font-weight: bold;
+    width: 180px;
+    height: 350px;
+    float: left; 
+    border: 1px solid;   
+    border-radius: 15px;
+}
+
+.jugador3{
+    font-weight: bold;
+    width: 180px;
+    height: 350px;
+    float: right;   
+    border: 1px solid;   
+    border-radius: 15px; 
+}
+
+.jugador1{
+    font-weight: bold;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 44px;
+    border: 1px solid;   
+    border-radius: 15px;
+}
+
+#J1Carta1, #J1Carta2, #J1Carta3{
+    width: 100px;
+    height: 150px;
+    margin-top: 15px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.J2Carta{
+    width: 150px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.J3Carta{
+    width: 150px;
+    height: 100px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Styles/estilo_mesa.css'>
+</head>
+
+<body>
+
+
+    <div class="mesa contador">
+        <span id="cuenta"></span>
+    </div>
+    <div class="mesa">
+
+
+        <div class="jugador2">
+            <div id="J2Nombre"><samp id="nombreJ2"></samp></div>
+            <div class="J2Carta">
+                <img src="img/OCULTA_J2.png" width="150px" height="100px" id="2Carta">
+            </div>
+            <div class="J2Carta">
+                <img src="img/OCULTA_J2.png" width="150px" height="100px" id="2Carta">
+            </div>
+            <div class="J2Carta">
+                <img src="img/OCULTA_J2.png" width="150px" height="100px" id="2Carta">
+            </div>
+        </div>
+
+
+        <div class="carta_tirada">
+            <img src="img/OCULTA.png" width="100px" height="150px" id="tirada">
+        </div>
+
+
+        <div class="jugador3">
+            <div id="J3Nombre"><samp id="nombreJ3"></samp></div>
+            <div class="J3Carta">
+                <img src="img/OCULTA_J3.png" width="150px" height="100px" id="3Carta">
+            </div>
+            <div class="J3Carta">
+                <img src="img/OCULTA_J3.png" width="150px" height="100px" id="3Carta">
+            </div>
+            <div class="J3Carta">
+                <img src="img/OCULTA_J3.png" width="150px" height="100px" id="3Carta">
+            </div>
+        </div>
+
+
+        <div class="jugador1">
+            <div id="J1Nombre"><samp id="nombreJ1"></samp></div>
+            <div id="J1Carta1">
+                <button type="submit" width="100px" height="150px" id="C1">
+                    <img src="img/OCULTA.png" width="100px" height="150px" id="carta1">
+                </button>
+            </div>
+            <div id="J1Carta2">
+                <button type="submit" width="100px" height="150px" id="C2">
+                    <img src="img/OCULTA.png" width="100px" height="150px" id="carta2">
+                </button>
+            </div>
+            <div id="J1Carta3">
+                <button type="submit" width="100px" height="150px" id="C3">
+                    <img src="img/OCULTA.png" width="100px" height="150px" id="carta3">
+                </button>
+            </div>
+        </div>
+        <div id="botones">
+            <p>Nombre: <input type="text" name="nombre" size="40" id='nick'>        
+            <button type="submit" width="300px" heigth="200px" id="enviarNombre">Enviar Nombre</button></p>
+            <p>Nombre de sala:<input type="text" name="nombre" size="40" id='nombreSala'></p>
+            <button type="submit" width="300px" heigth="200px" id="crear">Crear Sala</button> 
+            <button type="submit" width="300px" heigth="200px" id="unir">Unirse a sala</button>    
+            <spam id='notificacion'></spam>        
+        </div>
+    </div>    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
